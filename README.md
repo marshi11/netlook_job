@@ -1,0 +1,1 @@
+Pro spuštění v příkazové řádce najedte na daný adresář a zadejte "parcel index.html"
