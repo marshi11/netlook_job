@@ -1,0 +1,48 @@
+ @font-face {
+        font-family: "SF UI Display Medium";
+        font-style: normal;
+        font-weight: normal;
+        src: local("SF UI Display Medium"),
+          url("/sf-ui-display-medium-58646be638f96.7218cef7.woff") format("woff");
+      }
+      @font-face {
+        font-family: "SF UI Display Bold";
+        font-style: normal;
+        font-weight: normal;
+        src: local("SF UI Display Bold"),
+          url("/sf-ui-display-bold-58646a511e3d9.b30fee54.woff") format("woff");
+      }
+
+      html {
+        box-sizing: border-box;
+        /* background-color: #4e4e4e; */
+        height: 100%;
+      }
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+      body {
+        height: 100%;
+        font-family: "SF UI Display Medium", arial, tahoma;
+      }
+      main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+      ::-moz-selection
+{
+background:rgb(221, 97, 178);
+color:#111;
+}
+
+::selection
+{
+background:rgb(221, 97, 178);
+color:#111;
+}
+
+/*# sourceMappingURL=/style.78032849.css.map */
